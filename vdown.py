@@ -1,11 +1,11 @@
 from tkinter import *
 import os, os.path
 
-if os.path.exists("~/videos"):
+if os.path.exists("~/Vídeos"):
     print("Verificando existencia da pasta videos")
 else:
     print("pasta videos nao existe\n[Criando..]")
-    os.system("mkdir ~/videos")
+    os.system("mkdir ~/Vídeos")
 if os.path.exists("~/musics"):
     print("Diretório existe")
 else:
