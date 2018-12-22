@@ -1,5 +1,5 @@
 from tkinter import *
-import os, os.path
+import os
 
 if os.path.exists("~/Vídeos"):
     print("Verificando existencia da pasta videos")
