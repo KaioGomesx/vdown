@@ -17,7 +17,7 @@ def vid():
     con['fg']= "red"
     con['text']= "O link está vazio!"
   else:
-    os.system("youtube-dl {} -f mp4 -o \"~/videos/%(title)s.%(ext)s\"".format(a))
+    os.system("youtube-dl {} -f mp4 -o \"~/Vídeos/%(title)s.%(ext)s\"".format(a))
     con['fg']= "green"
     con['text']= "Arquivo baixado!"
 def mus():
@@ -49,7 +49,7 @@ bv.pack()
 bm = Button(j, text="Download Music", command = mus)
 bm.pack()
 
-lem = Label(j, text="OBS: Os arquivos são salvos automaticamente em ~/videos/ ou ~/musics")
+lem = Label(j, text="OBS: Os arquivos são salvos automaticamente em ~/Vídeos/ ou ~/musics")
 lem.pack()
 
 con = Label(j, text="")
