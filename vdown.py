@@ -38,7 +38,7 @@ def mus():
 j = Tk()
 j.title("vdown(Beta) by: curing0")
 j.geometry("500x250")
-ig = PhotoImage(file='/home/curing0/duck.gif')
+ig = PhotoImage(file='/usr/share/icons/duck.gif')
 j.tk.call('wm', 'iconphoto',j._w, ig)
 tp = Label(j, text="Video Downloader", font="Verdana 20")
 tp.pack()
