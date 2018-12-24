@@ -1,4 +1,4 @@
 # vdown
 #Agradecimentos:
 
-@R11se: por ter testado o programa no arch linux
+@R11se (https://github.com/RIS33): por ter testado o programa no arch linux
