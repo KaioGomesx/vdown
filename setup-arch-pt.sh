@@ -10,6 +10,5 @@ sudo cp vdown.py /usr/bin/
 sudo cp duck.ico /usr/share/icons/
 sudo mkdir /usr/share/vdown/
 sudo echo -e " \n[Desktop Entry]\nType=Application\nName=Vdown\nExec=python3 /usr/bin/vdown.py\nIcon=/usr/share/icons/duck.ico" > /home/$USER/Área\ de\ Trabalho/Vdown.desktop && sleep 0.5 && sudo chmod +x /home/$USER/Área\ de\ Trabalho/Vdown*
-sudo echo -e " \n[Desktop Entry]\nType=Application\nName=Vdown\nExec=python3 /usr/bin/vdown.py\nIcon=/usr/share/icons/duck.ico" > /usr/share/applications/Vdown.desktop && sleep 0.5 && sudo chmod +x /usr/share/applications/Vdown*
 echo "[Instalação conluída]"
 sudo python3 language.py
